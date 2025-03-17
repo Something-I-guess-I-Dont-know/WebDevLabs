@@ -21,11 +21,11 @@ th{
     background-color: blueviolet;
     width: fit-content;
 }
-tr:nth-child(2){
+tr:nth-child(odd){
     background-color: aquamarine;
 }
-tr:nth-child(4){
-    background-color: aquamarine;
+tr:nth-child(even){
+    background-color: lightcoral;
 }
 form * {
     display: block;
