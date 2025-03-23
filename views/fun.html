@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../static/script.js" defer></script>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="author" content="your name">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Billy McGrath professional website">
+    <title>Billy McGrath</title>
+</head>
+<body onload="addYear()">
+    <header><h1 id="webname">Billy McGrath</h1> 
+        <nav><a href="../index.html">Home</a>
+            <a href="cv.html">Resume</a>
+            <a href="contact.html">Contact me</a>
+            <a href="fun.html">For fun</a></nav>
+    </header>
+    <div class="mainLayout">
+    <item1>
+        <h2>Things I Enjoy Doing</h2>
+        <ul id = "hidden">
+            <li>Playing videogames</li>
+            <li>Playing dungeons and dragons</li>
+            <li>Eating good food</li>
+        </ul>
+    </item1>
+    <item2>
+        <img src="../static/hollowknight.jpg" alt ="picture of hollow knight" class="funIMG">
+    </item2>
+    <item3>
+        <iframe width="360" height="180" src="https://www.youtube.com/embed/mYEA5A0Bjyo?si=sO2goP5tTuQY-VUm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </item3>
+    <item4>
+        <div class="container">
+            <h2>Need Some Advice?</h2>
+            <p id="adviceText">Click the button to get a random piece of advice!</p>
+            <button onclick="getAdvice()">Get Advice</button>
+        </div>
+    </item4>
+    </div>
+    <!-- <button onclick="showList()" id = "button">Click to see...</button> -->
+    <footer><p id = "copyYear"> designed and coded by Billy McGrath &#169; </p></footer>
+</body>
+</html>

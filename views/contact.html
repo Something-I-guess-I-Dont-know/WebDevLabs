@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../static/script.js" defer></script>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="author" content="your name">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Billy McGrath professional website">
+    <title>Billy McGrath</title>
+</head>
+<body onload="addYear()">
+    
+    <header><h1 id="webname">Billy McGrath</h1> 
+        <nav><a href="../index.html">Home</a>
+            <a href="cv.html">Resume</a>
+            <a href="contact.html">Contact me</a>
+            <a href="fun.html">For fun</a></nav>
+    </header>
+    <div class="mainLayout">
+        <item1>
+            <h2>Find Me</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14343.266759982584!2d142.1892445838514!3d11.349312220635797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x67328f3cd57de715%3A0x1bbe64e7a21aa7fc!2sMariana%20Trench!5e1!3m2!1sen!2sus!4v1742699602449!5m2!1sen!2sus" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </item1>
+        <item2>
+            <h2>Contact Me</h2>
+            <form>
+                <centered>Your name(required)</centered>
+                <input type="text" id="name" name="name" required>
+                <centered>your email(required)</centered>
+                <input type="text" id="email" name="email" required>
+                <centered>your comment(required)</centered>
+                <input type="text" id="comment" name="comment" required>
+                <input type="submit" value="submit" onclick="checkValid()">
+                <centered id = "valid">Nuh uh, you need to make sure your inputs are valid</centered>
+            </form>
+        </item2>
+    </div>
+    <ul>
+        <li>Email: Wpmcgrat@andrew.cmu.edu</li>
+        <li>Phone: 412-889-8103</li>
+    </ul>
+    <footer><p id = "copyYear"> designed and coded by Billy McGrath &#169; </p></footer>
+</body>
+</html>
